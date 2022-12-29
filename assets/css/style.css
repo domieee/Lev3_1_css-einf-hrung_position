@@ -112,10 +112,6 @@ main {
     line-height: 65px;
 }
 
-a {
-    display: inline-block;
-}
-
 .frontpage-main__section__p {
     font-family: ubuntuRegular;
     color: #AC8059;
