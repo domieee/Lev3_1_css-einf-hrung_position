@@ -25,10 +25,12 @@ body {
     font-family: monotonRegular;
     src: url(../fonts/Monoton-Regular.ttf);
 }
+
 @font-face {
     font-family: ubuntuBold;
     src: url(../fonts/Ubuntu-Bold.ttf);
 }
+
 @font-face {
     font-family: ubuntuRegular;
     src: url(../fonts/Ubuntu-Regular.ttf);
@@ -71,7 +73,7 @@ body {
 .frontpage-header__navigation__anchor:nth-child(4),
 .frontpage-header__navigation__anchor:nth-child(5),
 .frontpage-header__navigation__anchor:nth-child(6) {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .frontpage-header__navigation__anchor:nth-child(4),
@@ -80,9 +82,8 @@ body {
     margin-left: 100px;
 }
 
-.frontpage-header__navigation__anchor:nth-child(6)
-{
-    margin-right: 250px;
+.frontpage-header__navigation__anchor:nth-child(6) {
+    margin-right: 360px;
 }
 
 /* MAIN SECTION STYLES */
@@ -102,9 +103,8 @@ main {
 }
 
 .frontpage-main__section:first-child {
-    padding-left: 200px;    
+    padding-left: 200px;
 }
-
 
 .frontpage-main__section__h1 {
     font-family: ubuntuBold;
@@ -166,6 +166,7 @@ a {
     color: #9d9f9f;
     text-decoration: none;
 }
+
 .frontpage-footer__navigation__anchor:hover {
     color: #AC8059;
     text-decoration: none;
@@ -184,7 +185,6 @@ a {
     margin-right: auto;
 }
 
-
 .frontpage-footer__navigation__anchor:nth-child(4) {
     margin-right: 20px;
 }
@@ -202,6 +202,7 @@ a {
     padding: 7px;
 
 }
+
 .frontpage-footer__navigation__anchor:nth-child(4):hover,
 .frontpage-footer__navigation__anchor:nth-child(5):hover {
     border: 2px solid #fff;
